@@ -139,6 +139,8 @@ inner join tb_curso on tb_curso.codigo_curso = 1
 
 ## 1ª Questão
 ### Defina: SQL.
+![praticaQ1](https://user-images.githubusercontent.com/107321701/206526788-92bb93c9-6c7f-4bd1-a4ef-2afaf2505407.png)
+
 #### SQL significa “Structured Query Language”, ou “Linguagem de Consulta Estruturada”, em português. É uma linguagem de computador para trabalhar com conjuntos de fatos e as relações (baseado em tabelas) entre eles.
 
 ## 2ª Questão
