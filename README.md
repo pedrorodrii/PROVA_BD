@@ -1,7 +1,7 @@
 # PROVA_BD
  PROVA BANCO DE DADOS
 # Resolução da Prova Prática Banco de Dados
-Aluno: Pedro Cauã Rodrigues Saraiva
+# Aluno: Pedro Cauã Rodrigues Saraiva
 
 ## 1ª Questão
 Faça um comando SQL para matricular o aluno "Pedro César" no  curso de informática. Os dados devem ser inseridos na tabela TB_MATRÍCULA.
