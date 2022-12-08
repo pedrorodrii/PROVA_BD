@@ -76,7 +76,7 @@ on tb_aluno.codigo_aluno = tb_curso.codigo_curso
 ![q5](https://user-images.githubusercontent.com/114403979/206186607-70f17862-97dd-4c9e-8318-ca044ccb31a5.png)
 
 ## 6ª Questão
-Desenvolva uma instrução SQL que retorne os nomes de todos os alunos com mais de 18 anos.
+Desenvolva uma comando SQL que retorne os nomes de todos os alunos com mais de 18 anos.
 
 ```sql
 select nome_aluno
