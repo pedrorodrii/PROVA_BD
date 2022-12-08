@@ -72,7 +72,7 @@ select count(codigo_matricula) as totalalunos from tb_matricula
 ## Resultado 
 
 
-![q5](https://user-images.githubusercontent.com/114403979/206186607-70f17862-97dd-4c9e-8318-ca044ccb31a5.png)
+![q5](https://user-images.githubusercontent.com/107321701/206524000-e43546ba-6096-4e5a-88ec-e16d01ca6712.png)
 
 ## 6ª Questão
 Desenvolva um comando SQL que retorne o nome de todos os alunos maiores que 18 anos.
