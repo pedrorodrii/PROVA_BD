@@ -128,14 +128,12 @@ from tb_curo order by nome_curso asc
 Crie o enunciado de uma consulta SQL que utiliza "junção" (com resposta).
 
 ```sql
-select ano_nasc,tb_curso.nome_curso,tb_aluno.nome_aluno
-from tb_aluno
-inner join tb_curso
-on tb_aluno.cod_aluno = tb_curso.cod_curso
-order by nome_curso asc 
+select tb_aluno.nome_aluno, tb_curso.nome_curso from tb_aluno 
+inner join tb_matricula on tb_aluno.codigo_aluno = tb_matricula.codigo_aluno
+inner join tb_curso on tb_curso.codigo_curso = 1
 ```
 ## Resultado 
-![g10](https://user-images.githubusercontent.com/104003510/206247087-8d9edbac-8794-418b-b4c2-034bb61a5c69.jpg)
+![g10](https://user-images.githubusercontent.com/107321701/206525295-9e2ca16f-8dd5-4949-95af-5f47d9ee129b.png)
 
 # Resolução da Prova Teórica
 
