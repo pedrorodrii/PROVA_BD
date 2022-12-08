@@ -156,6 +156,7 @@ inner join tb_curso on tb_curso.codigo_curso = 1
 ## Questão 4:
 ### Descreva a sintaxe do comando SQL: SELECT. Quais cláusulas são obrigatórias e quais são opcionais?
 #### O comando SELECT é usado para extrair dados de tabelas no banco de dados. Ele pode extrair dados de uma ou mais tabelas ao mesmo tempo, executar consultas simples a comandos mais complexos, realizar pesquisas, junções, comparações, filtragem, classificação e muitos outros itens.
+### Alem disso ele permite recuperar os dados de um objeto do banco de dados, como uma tabela, view e, em alguns casos, uma stored procedure (alguns bancos de dados permitem a criação de procedimentos que retornam valor). A sintaxe mais básica do comando é: definindo as colunas da tabela que queremos retornar com SELECT e o nome da tabela com FROM.
 
 ## Questão 5:
 ### Qual a importância da linguagem SQL no desenvolvimento de softwares atualmente? Justifique.
