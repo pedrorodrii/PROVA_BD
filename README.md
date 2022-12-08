@@ -1,5 +1,5 @@
 # PROVA_PG
- Prova Banco de Dados
+ PROVA BANCO DE DADOS
 # Resolução da Prova Prática Banco de Dados
 
 ## 1ª Questão
