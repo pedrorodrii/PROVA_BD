@@ -64,11 +64,10 @@ from tb_aluno
 Escreva um comando SQL para listar o total de alunos matriculados em cada curso.
 
 ```sql
-select tb_curso.nome_curso,
-codigo_curso + codigo_aluno as numero_alunos
-from tb_curso
-inner join tb_aluno
-on tb_aluno.codigo_aluno = tb_curso.codigo_curso
+alter table tb_matricula
+add codigo_matricula serial primary key 
+
+select count(codigo_matricula) as totalalunos from tb_matricula
 ```
 ## Resultado 
 
