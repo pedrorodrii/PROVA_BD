@@ -3,7 +3,7 @@
 # Resolução da Prova Prática Banco de Dados
 
 ## 1ª Questão
-Faça um comando SQL para matricular o aluno "Pedro César" no  curso de informática.Os dados devem ser inseridos na tabela TB_MATRÍCULA.
+Faça um comando SQL para matricular o aluno "Pedro César" no  curso de informática. Os dados devem ser inseridos na tabela TB_MATRÍCULA.
 
 ```sql
 select * from tb_aluno
@@ -21,7 +21,7 @@ values ('4', '4')
 
 
 ## 2ª Questão
-Escreva um comando SQL que retorne os nomes dos alunos e do(s) cursos em que estão matriculados.Os dados deverão estar ordenados pelo nome do curso.  
+Escreva um comando SQL que retorne os nomes dos alunos e do(s) cursos em que estão matriculados. Os dados deverão estar ordenados pelo nome do curso.  
 
 ```sql
 select tb_aluno.nome_aluno, tb_curso.nome_curso
