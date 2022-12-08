@@ -1,4 +1,4 @@
-# PROVA_PG
+# PROVA_BD
  PROVA BANCO DE DADOS
 # Resolução da Prova Prática Banco de Dados
 
