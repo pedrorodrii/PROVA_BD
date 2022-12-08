@@ -3,7 +3,7 @@
 # Resolução da Prova Prática Banco de Dados
 
 ## 1ª Questão
-Faça um comando SQL para matricular o aluno "Pedro César" no  curso de informática.Os dados devem ser inseridos na tabela TB_MATRÍCULA.
+Execute um comando SQL para matricular o aluno "Pedro César" no curso de informática. Os dados devem ser inseridos na tabela TB_MATRICULA.
 
 ```sql
 select * from tb_aluno
@@ -21,7 +21,7 @@ values ('4', '4')
 
 
 ## 2ª Questão
-Escreva um comando SQL que retorne os nomes dos alunos e do(s) cursos em que estão matriculados.Os dados deverão estar ordenados pelo nome do curso.  
+Digite um comando SQL que retorne os nomes dos alunos e os cursos em que estão matriculados. Os dados devem ser classificados por nome do curso.  
 
 ```sql
 select tb_aluno.nome_aluno, tb_curso.nome_curso
@@ -37,7 +37,7 @@ on tb_curso.codigo_curso = tb_matricula.codigo_curso
 
 
 ## 3ª Questão
-Crie um comando SQL que retorne o e-mail de todos os alunos maiores de idade.
+Crie um comando SQL que retorne os endereços de e-mail de todos os alunos maiores de idade.
 
 ```sql
 select email
@@ -49,7 +49,7 @@ from tb_aluno where 2022 - ano_nasc >= 18
 
 
 ## 4ª Questão
-Desenvolva um comando SQL que mostre o total de alunos.
+Desenvolva um comando SQL que exiba o número total de alunos.
 
 ```sql
 select count(codigo_aluno)
@@ -61,7 +61,7 @@ from tb_aluno
 
 
 ## 5ª Questão
-Escreva um comando SQL para listar o total de alunos matriculados em cada curso.
+Escreva um comando SQL para listar o número total de alunos matriculados em cada curso.
 
 ```sql
 select tb_curso.nome_curso,
@@ -76,7 +76,7 @@ on tb_aluno.codigo_aluno = tb_curso.codigo_curso
 ![q5](https://user-images.githubusercontent.com/114403979/206186607-70f17862-97dd-4c9e-8318-ca044ccb31a5.png)
 
 ## 6ª Questão
-Desenvolva um comando SQL que retorne o nome de todos os alunos maiores que 18 anos.
+Desenvolva uma instrução SQL que retorne os nomes de todos os alunos com mais de 18 anos.
 
 ```sql
 select nome_aluno
@@ -99,7 +99,7 @@ from tb_aluno where sexo = 'F'
 
 
 ## 8ª Questão
-Faça um comando SQL que retorne o nome de todas as mulheres matriculadas no curso de Medicina.
+Faça um comando SQL que exiba o nome de todas as mulheres matriculadas no curso de Medicina.
 
 ```sql
 select tb_aluno.nome_aluno as mulheres_em_medicina
