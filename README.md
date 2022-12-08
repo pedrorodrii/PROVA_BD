@@ -3,7 +3,7 @@
 # Resolução da Prova Prática Banco de Dados
 
 ## 1ª Questão
-Execute um comando SQL para matricular o aluno "Pedro César" no curso de informática. Os dados devem ser inseridos na tabela TB_MATRICULA.
+Faça um comando SQL para matricular o aluno "Pedro César" no  curso de informática.Os dados devem ser inseridos na tabela TB_MATRÍCULA.
 
 ```sql
 select * from tb_aluno
@@ -21,7 +21,7 @@ values ('4', '4')
 
 
 ## 2ª Questão
-Digite um comando SQL que retorne os nomes dos alunos e os cursos em que estão matriculados. Os dados devem ser classificados por nome do curso.  
+Escreva um comando SQL que retorne os nomes dos alunos e do(s) cursos em que estão matriculados.Os dados deverão estar ordenados pelo nome do curso.  
 
 ```sql
 select tb_aluno.nome_aluno, tb_curso.nome_curso
@@ -37,7 +37,7 @@ on tb_curso.codigo_curso = tb_matricula.codigo_curso
 
 
 ## 3ª Questão
-Crie um comando SQL que retorne os endereços de e-mail de todos os alunos maiores de idade.
+Crie um comando SQL que retorne o e-mail de todos os alunos maiores de idade.
 
 ```sql
 select email
@@ -49,7 +49,7 @@ from tb_aluno where 2022 - ano_nasc >= 18
 
 
 ## 4ª Questão
-Desenvolva um comando SQL que exiba o número total de alunos.
+Desenvolva um comando SQL que mostre o total de alunos.
 
 ```sql
 select count(codigo_aluno)
@@ -61,7 +61,7 @@ from tb_aluno
 
 
 ## 5ª Questão
-Escreva um comando SQL para listar o número total de alunos matriculados em cada curso.
+Escreva um comando SQL para listar o total de alunos matriculados em cada curso.
 
 ```sql
 select tb_curso.nome_curso,
@@ -76,7 +76,7 @@ on tb_aluno.codigo_aluno = tb_curso.codigo_curso
 ![q5](https://user-images.githubusercontent.com/114403979/206186607-70f17862-97dd-4c9e-8318-ca044ccb31a5.png)
 
 ## 6ª Questão
-Desenvolva uma comando SQL que retorne os nomes de todos os alunos com mais de 18 anos.
+Desenvolva um comando SQL que retorne o nome de todos os alunos maiores que 18 anos.
 
 ```sql
 select nome_aluno
@@ -84,7 +84,7 @@ from tb_aluno where 2022 - ano_nasc >= 18
 ```
 ## Resultado 
 
-![02](https://user-images.githubusercontent.com/105735037/206178292-be49f604-890b-494c-9a4b-07f093e433c1.PNG)
+![g6](https://user-images.githubusercontent.com/105735037/206178292-be49f604-890b-494c-9a4b-07f093e433c1.PNG)
 
 ## 7ª Questão
 Faça um comando SQL que retorne o nome de todas as mulheres. 
@@ -99,7 +99,7 @@ from tb_aluno where sexo = 'F'
 
 
 ## 8ª Questão
-Faça um comando SQL que exiba o nome de todas as mulheres matriculadas no curso de Medicina.
+Faça um comando SQL que retorne o nome de todas as mulheres matriculadas no curso de Medicina.
 
 ```sql
 select tb_aluno.nome_aluno as mulheres_em_medicina
@@ -136,3 +136,4 @@ on tb_aluno.cod_aluno = tb_curso.cod_curso
 order by nome_curso asc 
 ```
 ## Resultado 
+![g10](https://user-images.githubusercontent.com/104003510/206247087-8d9edbac-8794-418b-b4c2-034bb61a5c69.jpg)
