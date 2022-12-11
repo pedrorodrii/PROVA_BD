@@ -215,7 +215,7 @@ inner join tb_curso on tb_curso.codigo_curso = 1
 
 ###  1ª Questão
 ### Defina: SQL.
-![praticaQ1](https://user-images.githubusercontent.com/107321701/206526788-92bb93c9-6c7f-4bd1-a4ef-2afaf2505407.png)
+<img src="https://user-images.githubusercontent.com/107321701/206526788-92bb93c9-6c7f-4bd1-a4ef-2afaf2505407.png" />
 
 SQL (Structured Query Language) é a linguagem padrão universal para manipular bancos de dados relacionais através dos SGBDs. Isso significa que todos os SGBDRs (Sistema de Gerenciamento de Banco de Dados Relacionais) oferecem uma interface para acessar o banco de dados utilizando a linguagem SQL, embora com algumas variações. A "Linguagem Estruturada de Consultas" (SQL, traduzida para o português) é utilizada para interagir com o SGBD e executar várias tarefas como inserir e alterar registros, criar objetos no banco de dados, gerenciar usuário, consultar informações, controlar transações, etc. Todas as operações realizadas no banco de dados podem ser solicitadas ao SGBD utilizando esta linguagem.
 
@@ -224,13 +224,13 @@ SQL (Structured Query Language) é a linguagem padrão universal para manipular 
 
 A linguagem SQL surgiu em meados da década de 1970 como trabalho de E. F. Codd, membro do IBM Research Laboratory em San Jose, Califórnia. O foco desta pesquisa é desenvolver uma linguagem que acomode o modelo relacional. Os primeiros sistemas de banco de dados baseados em SQL foram comercializados no final dos anos 70 junto com outros sistemas de banco de dados relacionais. O sucesso da linguagem SQL foi tão grande que obrigou o ANSI (American National Standards Institute) a padronizar a implementação da linguagem, então agora a maioria dos BDs segue essa padronização com muito cuidado e pode haver algumas mudanças, mais Não afeta o global padronização da linguagem, facilitando a portabilidade se os DBAs a seguirem corretamente. Em 1982, foi lançada a primeira versão padronizada da linguagem SQL. Com seu desenvolvimento e aprimoramento contínuo, tornou-se a mais poderosa ferramenta para definição e operação de bancos de dados. Atualmente é utilizada na maioria dos bancos de dados existentes, como MySQL, SQLServer, Firebird entre outros.
 
-![praticaQ2](https://user-images.githubusercontent.com/107321701/206527818-dc154127-26b4-409a-8b39-b65683bdc9a5.png)
+<img src="https://user-images.githubusercontent.com/107321701/206527818-dc154127-26b4-409a-8b39-b65683bdc9a5.png" width="300" height="300" />
 
 ### 3ª Questão
 ### Liste as principais características de SQL.
 SQL é uma linguagem padrão para trabalhar com bancos de dados relacionais. É uma linguagem declarativa que não requer conhecimento profundo de programação para começar a escrever consultas. A linguagem SQL é utilizada de forma relativamente semelhante nos principais bancos de dados relacionais do mercado: Oracle, MySQL, MariaDB, PostgreSQL, Microsoft SQL Server e muitos outros. Cada um tem suas próprias características, e o MySQL e o PostgreSQL são muito populares porque possuem versões gratuitas e de código aberto.
 
-![image](https://user-images.githubusercontent.com/107321701/206531691-cd79b20c-efd6-427b-8176-97129f954648.png)
+<img src="https://user-images.githubusercontent.com/107321701/206531691-cd79b20c-efd6-427b-8176-97129f954648.png" width="300" height="300" />
 
 
 ### Questão 4:
